@@ -7,6 +7,8 @@
 
 A Node.js BLE (Bluetooth Low Energy) central module.
 
+test
+
 Want to implement a peripheral? Checkout [bleno](https://github.com/sandeepmistry/bleno)
 
 __Note:__ macOS / Mac OS X, Linux, FreeBSD and Windows are currently the only supported OSes. Other platforms may be developed later on.
