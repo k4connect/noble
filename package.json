@@ -1,15 +1,15 @@
 {
-  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
+  "author": "K4Connect, Inc.",
   "license": "MIT",
-  "name": "noble",
+  "name": "@k4connect/noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/noble.git"
+    "url": "https://github.com/k4connect/noble.git"
   },
   "bugs": {
-    "url": "https://github.com/sandeepmistry/noble/issues"
+    "url": "https://github.com/k4connect/noble/issues"
   },
   "keywords": [
     "bluetooth",
@@ -20,7 +20,7 @@
   ],
   "main": "./index.js",
   "engines": {
-    "node": ">=0.8"
+    "node": ">=10.16.3"
   },
   "os": [
     "darwin",
@@ -28,20 +28,20 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "~2.2.0"
+    "@abandonware/bluetooth-hci-socket": "0.5.3-3",
+    "debug": "4.1.1"
   },
   "optionalDependencies": {
-    "bluetooth-hci-socket": "~0.4.4",
-    "bplist-parser": "0.0.6",
-    "xpc-connection": "~0.1.4"
+    "bplist-parser": "0.1.1",
+    "xpc-connection": "0.1.4"
   },
   "devDependencies": {
-    "jshint": "latest",
-    "mocha": "~1.8.2",
-    "should": "~1.2.2",
-    "sinon": "~1.6.0",
-    "async": "~0.2.9",
-    "ws": "~0.4.31"
+    "jshint": "2.10.2",
+    "mocha": "6.2.2",
+    "should": "13.2.3",
+    "sinon": "7.5.0",
+    "async": "3.1.0",
+    "ws": "7.2.0"
   },
   "scripts": {
     "pretest": "jshint *.js lib/. test/.",
