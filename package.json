@@ -1,15 +1,15 @@
 {
-  "author": "K4Connect, Inc.",
+  "author": "Sandeep Mistry <sandeep.mistry@gmail.com>",
   "license": "MIT",
   "name": "@k4connect/noble",
   "description": "A Node.js BLE (Bluetooth Low Energy) central library.",
   "version": "1.6.0-k4-1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/k4connect/noble.git"
+    "url": "https://github.com/sandeepmistry/noble.git"
   },
   "bugs": {
-    "url": "https://github.com/k4connect/noble/issues"
+    "url": "https://github.com/sandeepmistry/noble/issues"
   },
   "keywords": [
     "bluetooth",
